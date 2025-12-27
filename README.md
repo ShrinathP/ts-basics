@@ -1,3 +1,5 @@
+Using Node Version 16.2
+
 Setting up typescript
 1. Create a node project
 yarn init -y
