@@ -22,6 +22,17 @@ npx ts-node basics.ts
 7. compile ts to js file
 npx tsc functions.ts
 
+Error:
+18_mapped_types.ts line 56-58
+Error:
+Type 'keyof Type' is not assignable to type 'string | number | bigint | boolean | null | undefined'. meaning
+In TypeScript:
+keyof Type === string | number | symbol
+2️⃣ Template literal types only accept primitives
+string | number | bigint | boolean | null | undefined
 
-
+So this part breaks
+`on${Property}Change`
+     ^^^^^^^^
+     could be symbol
 
