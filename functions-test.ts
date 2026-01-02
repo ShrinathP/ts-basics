@@ -1,4 +1,4 @@
-import addNumbers, {addStrings, getName} from "./functions";
+import addNumbers, {addStrings, getName} from "./functions.js";
 console.log(addNumbers(1,2));
 console.log(addStrings("a",'b'));
 console.log(addStrings("a"));
