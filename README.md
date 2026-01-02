@@ -1,3 +1,4 @@
+Use Node 18
 Using Node Version 16.2
 
 Setting up typescript
